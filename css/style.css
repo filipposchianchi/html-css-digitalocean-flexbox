@@ -1,0 +1,475 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.top-nav {
+  margin-top: 10px;
+}
+.new{
+  display: inline-block;
+  padding: 2px 6px;
+  background: #00d7d2;
+  border-radius: 8px;
+  color: blue;
+}
+.left-nav a{
+  color: grey;
+  font-weight: bold;
+}
+nav {
+  line-height: 22px;
+  text-align: right;
+}
+header ul {
+  list-style-type: none;
+}
+header li {
+  display:  inline;
+  margin-left: 20px;
+}
+header nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: grey;
+}
+.my-hr {
+  margin-top: 0;
+}
+
+.bottom-nav{
+  margin-top: 10px;
+}
+.container-logo {
+  margin-bottom: 8px;
+}
+.bottom-nav ul{
+  list-style-type: none;
+  margin-top: 10px
+}
+.bottom-nav li {
+  display: inline;
+}
+.bottom-nav ul a {
+  text-decoration: none;
+  color: grey;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 17px;
+  background-color: #ffffff;
+  width: 100vh;
+  z-index: 1;
+}
+.dropdown-content h6 {
+  height: 30px;
+  margin-top: 100px;
+  text-align: center;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+.dropdown:hover .dropdownbtn {
+  color: darkblue;
+}
+.signup {
+  padding: 8px 12px;
+  background: white;
+  color: blue;
+  border: 1px solid blue;
+  border-radius: 8px;
+  line-height: 35px
+}
+.right {
+  text-align: right;
+}
+.nascondi {
+  display: none;
+}
+
+.glyphicon-menu-hamburger {
+  font-size: 25px;
+  line-height: 25px;
+}
+
+#welcome {
+  background: url(../assets/img/bgblue.png)
+}
+#welcome h1 {
+  margin-top: 200px;
+  font-size: 60px;
+}
+#welcome h1, #welcome h4 {
+  color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.container-form {
+  margin-top: 100px;
+  width: 90%;
+  background: white;
+  padding: 40px 30px;
+  border-radius: 6px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#welcome h3 {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px
+}
+.input-group .form-control {
+  margin-bottom: 20px;
+}
+.form-control {
+  border-radius: 6px;
+}
+.create {
+  padding: 10px 0;
+  background: blue;
+  color: white;
+  display: inline-block;
+  margin: 0 auto;
+  width: 100%;
+  border-radius: 6px;
+}
+#welcome .linea {
+  border-top: 1px solid grey;
+  margin-top: 41px;
+}
+#welcome .container-form h5 {
+  text-align: center;
+  color: grey;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background: white;
+  font-size: 20px;
+  padding: 0 0;
+}
+.google, .github {
+  padding: 10px 18px;
+  background: #f2f8ff;
+  color: darkblue;
+  border-radius: 6px;
+  font-weight: bold;
+  border: 1px solid lightblue;
+}
+.container-create-account{
+  text-align: center;
+}
+.container-buttons {
+  text-align: center;
+  margin-top: 30px;
+}
+.google {
+  margin-right: 20px;
+}
+
+#customers{
+  background: #f3f5f9;
+}
+#customers h3 {
+  margin-top: 50px;
+  text-align: center;
+  color: darkgrey;
+}
+#customers ul {
+  list-style-type: none;
+  display: flex;
+}
+#customers img {
+  max-width: 80%;
+}
+#customers li {
+  display: flex;
+  align-items: center;
+}
+/* #customers ul {
+  list-style-type: none;
+}
+#customers li {
+  display: inline-block;
+  width: calc((100% / 6) - 4px);
+}
+#customers img {
+  max-width: 80%;
+} */
+#customers a {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+
+#deploy h2 {
+  text-align: center;
+  font-size: 30px;
+  color: darkblue;
+  margin-top: 50px
+}
+#deploy h5 {
+  text-align: center;
+  font-size: 20px;
+  color: grey;
+}
+
+#deploy ul {
+  list-style-type: none;
+  margin-top: 100px
+}
+#deploy li{
+  margin-bottom: 20px
+}
+#deploy a {
+  text-decoration: none;
+  color: grey;
+}
+.timone {
+  width: 40px;
+}
+.margine {
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+#deploy h3 {
+  font-size: 25px;
+  margin-top: 8px;
+  color: darkblue
+}
+#deploy p {
+  color: grey;
+  margin-bottom: 40px;
+}
+.prima-sottoriga {
+  margin-bottom: 30px;
+}
+
+#designed {
+  background: #f3f5f9
+}
+#designed h2 {
+  margin-top: 50px;
+  color: darkblue;
+  text-align: center;
+}
+#designed h4 {
+  color: grey;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#designed .img-container {
+  text-align: center;
+  margin-bottom: 50px;
+}
+#designed img {
+  max-width: 80%;
+}
+
+#built h2 {
+  margin-top: 50px;
+  color: darkblue;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#built img {
+  width: 40px;
+  height: 40px;
+  margin-top: 30px;
+}
+#built h5{
+  color: darkblue;
+  font-size: 20px;
+}
+#built p {
+  color: grey;
+  font-size: 17px;
+}
+#built a {
+  display: inline-block;
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+#service {
+  background: #031b4e;
+}
+#service .wrapper {
+  width: 80%;
+  margin: 0 auto;
+  margin-top:50px;
+  margin-bottom: 30px;
+}
+#service h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.codice {
+  color: white;
+  font-weight: bold;
+}
+.citta {
+  color: grey;
+}
+.link {
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
+}
+.table > tbody > tr > .nobord {
+  border-top: 0;
+}
+.table > tbody > th > .nobord {
+  border-top: 0;
+}
+#service .table {
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+#development {
+  background: #f3f5f9;
+}
+#development h2 {
+  text-align: center;
+  color: darkblue;
+  margin-top: 80px;
+}
+#development .wrapper {
+  width: 70%;
+  background: white;
+  padding: 50px 0;
+  margin: 20px auto;
+
+}
+#development .container-img {
+  text-align: center;
+}
+#development p {
+  text-align: center;
+  color: grey;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#development .wrapper-centro {
+  text-align: center;
+}
+#development span {
+  display: block;
+  color: grey;
+  margin-bottom: 20px;
+}
+#development a {
+  color: blue;
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#get-started {
+  background: url(../assets/img/bgfondo.png);
+}
+#get-started h2 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 30px;
+}
+#get-started .wrapper {
+  text-align: center;
+
+}
+#get-started a {
+  display: inline-block;
+  padding: 8px 15px;
+  color: #0147fe;
+  background: white;
+  font-size: 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+footer{
+  background: #010e28;
+}
+footer h4 {
+  color: white;
+  margin-top: 50px;
+}
+footer ul {
+  list-style-type: none;
+  margin-bottom: 50px;
+}
+footer li {
+  color: grey;
+}
+footer hr {
+  width: 1200px;
+  color grey;
+  display: inline-block;
+  margin: 50px auto;
+}
+footer .wrapper{
+  border-top: 1px solid grey;
+}
+footer .container-fluid .wrapper .row {
+  margin-top: 30px;
+}
+footer img {
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.wrapper2 {
+  text-align: right;
+  margin-bottom: 50px;
+  line-height: 78px;
+}
+footer .wrapper2 img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  filter: invert(1);
+}
+
+
+@media screen and (max-width: 1199px){
+  .nascondi {
+    display: inline;
+  }
+  .visibile {
+    display: none;
+  }
+
+}
+@media screen and (max-width:1110px) {
+  #welcome h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #customers li {
+    display: inline-block;
+    width: calc((100% / 3) - 4px);
+  }
+
+
+}
